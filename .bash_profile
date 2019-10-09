@@ -27,6 +27,9 @@ alias gk='gitk --all&'
 alias gx='gitx --all'
 alias tree='git log --graph --oneline --all '
 
+#npm pkg
+alias cra='npx create-react-app '
+
 #utils
 alias lib='cat ~/.bash_profile'
 alias less='less -r'
