@@ -6,8 +6,9 @@ alias ll='ls -al'
 alias n='node '
 alias y='yarn '
 alias ni='npm install '
+alias ns='npm start '
 alias yi='yarn install '
-alias start='npm start '
+alias ys='yarn install '
 alias dev='npm run dev '
 
 #git
