@@ -9,7 +9,7 @@ alias ni='npm install '
 alias ns='npm start '
 alias yi='yarn install '
 alias ys='yarn install '
-alias dev='npm run dev '
+alias nd='npm run dev '
 
 #git
 alias clone='git clone '
