@@ -4,15 +4,15 @@ alias ll='ls -al'
 
 #node/npm
 alias n='node '
-alias y='yarn '
 alias ni='npm install '
 alias ns='npm start '
 alias nd='npm run dev '
 
-#node/yarn
+#yarn
+alias y='yarn '
 alias yi='yarn install '
 alias ys='yarn install '
-
+alias ytu='yarn test:unit'
 
 #git
 alias clone='git clone '
