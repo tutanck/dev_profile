@@ -36,7 +36,7 @@ alias tree='git log --graph --oneline --all '
 alias cra='npx create-react-app '
 
 #utils
-alias lib='cat ~/.bash_profile'
+alias i='cat ~/.bash_profile' #infos
 alias less='less -r'
 alias kp='npx kill-port '
 
