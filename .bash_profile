@@ -11,7 +11,8 @@ alias nd='npm run dev '
 #yarn
 alias y='yarn '
 alias yi='yarn install '
-alias ys='yarn install '
+alias ys='yarn start:'
+alias ysd='yarn start:dev'
 alias ytu='yarn test:unit'
 
 #git
@@ -37,7 +38,7 @@ alias tree='git log --graph --oneline --all '
 alias cra='npx create-react-app '
 
 #utils
-alias i='cat ~/.bash_profile' #infos
+alias cmd='cat ~/.bash_profile' #infos
 alias less='less -r'
 alias kp='npx kill-port '
 
