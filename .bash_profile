@@ -7,12 +7,14 @@ alias n='node '
 alias ni='npm install '
 alias ns='npm start '
 alias nd='npm run dev '
+alias nt='npm run test'
 
 #yarn
 alias y='yarn '
 alias yi='yarn install '
 alias ys='yarn start:'
 alias ysd='yarn start:dev'
+alias yt='yarn test'
 alias ytu='yarn test:unit'
 
 #git
