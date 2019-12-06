@@ -7,7 +7,9 @@ alias n='node '
 alias ni='npm install '
 alias ns='npm start '
 alias nd='npm run dev '
-alias nt='npm run test'
+alias nrd='npm run dev '
+alias nt='npm run test '
+alias nrt='npm run test '
 
 #yarn
 alias y='yarn '
@@ -38,6 +40,7 @@ alias tree='git log --graph --oneline --all '
 
 #npm pkg
 alias cra='npx create-react-app '
+alias ng='ngrok http '
 
 #utils
 alias cmd='cat ~/.bash_profile' #infos
