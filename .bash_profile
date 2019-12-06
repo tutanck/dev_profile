@@ -40,7 +40,7 @@ alias tree='git log --graph --oneline --all '
 
 #npm pkg
 alias cra='npx create-react-app '
-alias ng='ngrok http '
+alias ng='ngrok http ' #port ex : 3000
 
 #utils
 alias cmd='cat ~/.bash_profile' #infos
