@@ -20,7 +20,7 @@ alias yt='yarn test'
 alias ytu='yarn test:unit'
 
 # git
-alias clone='git clone '
+alias cl='git clone '
 alias fetch='git fetch '
 alias br='git branch '
 alias ck='git checkout '
