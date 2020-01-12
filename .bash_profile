@@ -50,7 +50,6 @@ alias dkc='docker-compose '
 alias cmd='cat ~/.bash_profile' #infos
 alias less='less -r'
 alias kp='npx kill-port '
-
-
+alias yt='npx pipcorn '
 
 export PATH=~/.npm-global/bin:$PATH
