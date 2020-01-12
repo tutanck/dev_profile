@@ -45,6 +45,7 @@ alias ngi='ni -g ngrok' # port ex : 3000
 
 # docker
 alias dk='docker '
+alias dkc='docker-compose '
 
 
 # utils
