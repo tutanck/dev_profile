@@ -46,6 +46,12 @@ alias ng='ngrok http ' # port ex : 3000
 alias dk='docker '
 alias dkc='docker-compose '
 
+#touch
+alias touch_dk='touch Dockerfile'
+alias touch_dkc='touch docker-compose.yml'
+alias touch_dki='touch .dockerignore'
+alias touch_gi='touch .gitignore'
+
 # utils
 alias cmd='cat ~/.bash_profile' #infos
 alias less='less -r'
