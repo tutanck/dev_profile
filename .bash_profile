@@ -57,6 +57,7 @@ alias touch_gi='touch .gitignore'
 alias cmd='cat ~/.bash_profile' #infos
 alias less='less -r'
 alias kp='npx kill-port '
-alias yt='npx pipcorn '
+alias show='npx pipcorn ' # youtube screen (show 'url')
+alias bok='yarn lint && jest' # before ok 
 
 export PATH=~/.npm-global/bin:$PATH
