@@ -60,6 +60,6 @@ alias less='less -r'
 alias kp='npx kill-port '
 alias show='npx pipcorn ' # youtube screen (show 'url')
 alias bok='yarn lint && jest' # before ok 
-alias wx='docker-compose up & npm run dev ' # work exec
+alias wx='docker-compose up -d && npm run dev ' # work exec
 
 export PATH=~/.npm-global/bin:$PATH
