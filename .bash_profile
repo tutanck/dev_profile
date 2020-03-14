@@ -38,6 +38,7 @@ alias dif='git diff '
 alias gk='gitk --all&'
 alias gx='gitx --all'
 alias tree='git log --graph --oneline --all '
+alias ok='add . && cm "_" && push'
 
 # npm pkg
 alias cra='npx create-react-app '
