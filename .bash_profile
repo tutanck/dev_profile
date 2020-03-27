@@ -49,16 +49,16 @@ alias dk='docker '
 alias dkc='docker-compose '
 
 #touch
-alias touch_dk='touch Dockerfile'
-alias touch_dkc='touch docker-compose.yml'
-alias touch_dki='touch .dockerignore'
-alias touch_gi='touch .gitignore'
+alias tdk='touch Dockerfile'
+alias tdkc='touch docker-compose.yml'
+alias tdki='touch .dockerignore'
+alias tgi='touch .gitignore'
 
 # utils
 alias cmd='cat ~/.bash_profile' #infos
 alias less='less -r'
 alias kp='npx kill-port '
-alias show='npx pipcorn ' # youtube screen (show 'url')
+alias ytb='npx pipcorn ' # youtube screen (show 'url')
 alias bok='yarn lint && jest' # before ok 
 alias ws='docker-compose up -d && npm run dev ' # work session
 
