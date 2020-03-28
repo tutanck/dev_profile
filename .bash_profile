@@ -53,13 +53,16 @@ alias tdk='touch Dockerfile'
 alias tdkc='touch docker-compose.yml'
 alias tdki='touch .dockerignore'
 alias tgi='touch .gitignore'
+alias trmd='touch README.md'
+alias ti='touch index.js'
+alias tapp='touch app.js'
 
 # utils
 alias cmd='cat ~/.bash_profile' #infos
 alias less='less -r'
 alias kp='npx kill-port '
-alias ytb='npx pipcorn ' # youtube screen (show 'url')
-alias bok='yarn lint && jest' # before ok 
+alias ytb='npx pipcorn '                        # youtube screen (show 'url')
+alias bok='yarn lint && jest'                   # before ok
 alias ws='docker-compose up -d && npm run dev ' # work session
 
 export PATH=~/.npm-global/bin:$PATH
