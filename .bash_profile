@@ -42,7 +42,7 @@ alias ok='add . && cm "_" && push'
 
 # npm pkg
 alias cra='npx create-react-app '
-alias doc='npx readme-md-generator '
+alias md='npx readme-md-generator '
 alias ng='ngrok http ' # port ex : 3000
 
 # docker
