@@ -54,7 +54,7 @@ alias tdk='touch Dockerfile'
 alias tdkc='touch docker-compose.yml'
 alias tdki='touch .dockerignore'
 alias tgi='touch .gitignore'
-alias trmd='touch README.md'
+alias tmd='touch README.md'
 alias ti='touch index.js'
 alias tapp='touch app.js'
 
