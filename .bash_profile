@@ -49,6 +49,9 @@ alias ng='ngrok http ' # port ex : 3000
 alias dk='docker '
 alias dkc='docker-compose '
 
+# heroku
+alias dyno='heroku ps -a '
+
 #touch
 alias tdk='touch Dockerfile'
 alias tdkc='touch docker-compose.yml'
