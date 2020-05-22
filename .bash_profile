@@ -1,16 +1,49 @@
+# cmd
+alias cmd='cat ~/.bash_profile' #command list
+
+# docker
+alias dk='docker '
+alias dkc='docker-compose '
+
+# git
+alias ga='git add '
+alias gacm='git add . && git commit -m $1'
+alias gb='git branch '
+alias gck='git checkout '
+alias gcl='git clone '
+alias gcm='git commit -m $1'
+alias gdif='git diff '
+alias gf='git fetch '
+alias gk='gitk --all&'
+alias gpl='git pull '
+alias gpsh='git push '
+alias grh='git reset --hard '
+alias gpop='git stash pop'
+alias gst='git branch && git status '
+alias gsta='git stash '
+alias gtree='git log --graph --oneline --all '
+alias gx='gitx --all'
+
 # ls
 alias l='ls -a'
 alias ll='ls -al'
 
 # node/npm
 alias n='node '
-alias ni='npm install '
-alias ns='npm start '
-alias nr='npm run '
 alias nd='npm run dev '
-alias nrd='npm run dev '
+alias ni='npm install '
+alias nr='npm run '
+alias ns='npm start '
 alias nt='npm run test '
-alias nrt='npm run test '
+
+# touch
+alias tdk='touch Dockerfile'
+alias tdkc='touch docker-compose.yml'
+alias tdki='touch .dockerignore'
+alias tgi='touch .gitignore'
+alias tmd='touch README.md'
+alias ti='touch index.js'
+alias tapp='touch app.js'
 
 # yarn
 alias y='yarn '
@@ -20,54 +53,20 @@ alias ys='yarn start:'
 alias ysd='yarn start:dev'
 alias yt='yarn test'
 alias ytu='yarn test:unit'
+alias ylj='yarn lint && jest'
 
-# git
-alias cl='git clone '
-alias fetch='git fetch '
-alias br='git branch '
-alias ck='git checkout '
-alias stash='git stash '
-alias pop='git stash pop'
-alias grh='git reset --hard '
-alias st='br && git status '
-alias pull='git pull '
-alias push='git push '
-alias add='git add '
-alias cm='git commit -m '
-alias dif='git diff '
-alias gk='gitk --all&'
-alias gx='gitx --all'
-alias tree='git log --graph --oneline --all '
-alias ok='add . && cm "_" && push'
-
-# npm pkg
-alias cra='npx create-react-app '
-alias md='npx readme-md-generator '
-alias ng='ngrok http ' # port ex : 3000
-
-# docker
-alias dk='docker '
-alias dkc='docker-compose '
-
-# heroku
-alias dyno='heroku ps -a '
-
-#touch
-alias tdk='touch Dockerfile'
-alias tdkc='touch docker-compose.yml'
-alias tdki='touch .dockerignore'
-alias tgi='touch .gitignore'
-alias tmd='touch README.md'
-alias ti='touch index.js'
-alias tapp='touch app.js'
+# npx (npm pkg)
+alias cra='npx create-react-app '   # create react app
+alias hps='heroku ps -a '           # heroku remaining dynos
+alias kp='npx kill-port '           # kp 'port' --ex : kp 3000
+alias md='npx readme-md-generator ' # generate new readme
+alias ng='ngrok http '              # ng 'port' --ex : ng 3000
 
 # utils
-alias cmd='cat ~/.bash_profile' #infos
 alias less='less -r'
-alias kp='npx kill-port '
-alias ssd="node '/Users/joan/Code/snc/ssd' "    # srcDir destDir watch=(true/false)
-alias ytb='npx pipcorn '                        # youtube screen (show 'url')
-alias bok='yarn lint && jest'                   # before ok
-alias ws='docker-compose up -d && npm run dev ' # work session
+alias ssd="node '/Users/joan/Code/snc/ssd' " # srcDir destDir watch=(true/false)
+alias ytb='npx pipcorn '                     # show youtube url --ex : ytb 'url'
+
+alias dev='docker-compose up -d && npm run dev ' # dev session
 
 export PATH=~/.npm-global/bin:$PATH
