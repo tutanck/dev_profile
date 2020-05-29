@@ -7,7 +7,7 @@ alias dkc='docker-compose '
 
 # git
 alias ga='git add '
-alias gac='git add . && git commit -m $1'
+alias gacm='git add . && git commit -m $1'
 alias gb='git branch '
 alias gcl='git clone '
 alias gcm='git commit -m $1'
