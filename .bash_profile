@@ -69,4 +69,6 @@ alias ytb='npx pipcorn '                     # show youtube url --ex : ytb 'url'
 
 alias dev='docker-compose up -d && npm run dev ' # dev session
 
-export PATH=~/.npm-global/bin:$PATH
+export ANDROID_HOME=/Users/joan/Library/Android/sdk/
+export ANDROID_SDK_ROOT=/Users/joan/Library/Android/sdk/
+export PATH=~/.npm-global/bin:$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
