@@ -72,3 +72,4 @@ alias dev='docker-compose up -d && npm run dev ' # dev session
 export ANDROID_HOME=/Users/joan/Library/Android/sdk/
 export ANDROID_SDK_ROOT=/Users/joan/Library/Android/sdk/
 export PATH=~/.npm-global/bin:$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+export PATH=$PATH:~/flutter/bin
