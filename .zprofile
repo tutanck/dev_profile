@@ -74,3 +74,13 @@ export ANDROID_HOME=/Users/joan/Library/Android/sdk/
 export ANDROID_SDK_ROOT=/Users/joan/Library/Android/sdk/
 export PATH=~/.npm-global/bin:$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export PATH=$PATH:~/flutter/bin
+
+# globally install \w sudo on macOS
+# https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md
+NPM_PACKAGES="${HOME}/.npm-packages"
+
+export PATH="$PATH:$NPM_PACKAGES/bin"
+
+# Preserve MANPATH if you already defined it somewhere in your config.
+# Otherwise, fall back to `manpath` so we can inherit from `/etc/manpath`.
+export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
