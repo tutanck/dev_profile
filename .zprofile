@@ -53,6 +53,7 @@ alias tapp='touch app.js'
 alias y='yarn '
 alias ya='yarn add '
 alias yi='yarn install '
+alias yt='yarn start '
 alias yt='yarn test'
 
 # npx (npm pkg)
