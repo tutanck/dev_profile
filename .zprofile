@@ -53,11 +53,7 @@ alias tapp='touch app.js'
 alias y='yarn '
 alias ya='yarn add '
 alias yi='yarn install '
-alias ys='yarn start:'
-alias ysd='yarn start:dev'
 alias yt='yarn test'
-alias ytu='yarn test:unit'
-alias ylj='yarn lint && jest'
 
 # npx (npm pkg)
 alias cra='npx create-react-app '   # create react app
