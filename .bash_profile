@@ -1,6 +1,9 @@
 # cmd
 alias cmd='cat ~/.bash_profile' #command list
 
+# adb
+alias au='adb uninstall '
+
 # docker
 alias dk='docker '
 alias dkc='docker-compose '
