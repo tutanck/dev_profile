@@ -36,7 +36,7 @@ alias ll='ls -al'
 alias n='node '
 alias nd='npm run dev '
 alias ni='npm install '
-alias nr='npm run '
+alias nr='npm run $1'
 alias ns='npm start '
 alias nt='npm run test '
 
