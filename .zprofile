@@ -1,5 +1,5 @@
 # cmd
-alias cmd='cat ~/.bash_profile' #command list
+alias cmd='cat ~/.zprofile' #command list
 
 # adb
 alias au='adb uninstall '
@@ -32,6 +32,9 @@ alias gx='gitx --all'
 alias l='ls -a'
 alias ll='ls -al'
 
+# mongo
+alias mongod='mongod --dbpath=/Users/joan/data/db'
+
 # node/npm
 alias n='node '
 alias nd='npm run dev '
@@ -61,7 +64,7 @@ alias cra='npx create-react-app '   # create react app
 alias hps='heroku ps -a '           # heroku remaining dynos
 alias kp='npx kill-port '           # kp 'port' --ex : kp 3000
 alias md='npx readme-md-generator ' # generate new readme
-alias ng='ngrok http '              # ng 'port' --ex : ng 3000
+alias ng='npx ngrok -g && ngrok http ' # ng 'port' --ex : ng 3000
 
 # utils
 alias less='less -r'
@@ -69,6 +72,8 @@ alias ssd="node '/Users/joan/Code/snc/ssd' " # srcDir destDir watch=(true/false)
 alias ytb='npx pipcorn '                     # show youtube url --ex : ytb 'url'
 
 alias dev='docker-compose up -d && npm run dev ' # dev session
+alias m='cd /Users/joan/Code/Mapi && docker-compose up -d && npm run dev ' # launch mapi
+alias d='cd /Users/joan/Code/Datree && npm run dev'
 
 export ANDROID_HOME=/Users/joan/Library/Android/sdk/
 export ANDROID_SDK_ROOT=/Users/joan/Library/Android/sdk/
@@ -84,3 +89,7 @@ export PATH="$PATH:$NPM_PACKAGES/bin"
 # Preserve MANPATH if you already defined it somewhere in your config.
 # Otherwise, fall back to `manpath` so we can inherit from `/etc/manpath`.
 export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
+
+# mongo
+export PATH="$PATH:/usr/local/opt/mongodb-community@4.4/bin"
+
