@@ -92,4 +92,3 @@ export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
 
 # mongo
 export PATH="$PATH:/usr/local/opt/mongodb-community@4.4/bin"
-
