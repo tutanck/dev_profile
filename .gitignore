@@ -5,4 +5,7 @@
 !.gitignore
 !.bash_profile
 !.zprofile
-!.zenika
+!.zenika/
+!github_tokens
+!keybindings.json
+!settings.json
