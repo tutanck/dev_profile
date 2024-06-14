@@ -11,6 +11,7 @@ alias dkc='docker-compose '
 # git
 alias ga='git add '
 alias gacm='git add . && git commit -m $1'
+alias gacn='git add . && git commit --no-verify -m $1'
 alias gbr='git branch '
 alias gcl='git clone '
 alias gcm='git commit -m $1'
@@ -22,11 +23,29 @@ alias gck='git checkout'
 alias gpl='git pull '
 alias gpop='git stash pop'
 alias gps='git push '
+alias gpn='git push --no-verify' 
 alias grh='git reset --hard '
 alias gst='git branch && git status '
 alias gsta='git stash '
 alias gtree='git log --graph --oneline --all '
+alias gplog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all "
 alias gx='gitx --all'
+
+# kubernetes
+ alias k=kubectl
+alias kg='kubectl get'
+alias kgp='kubectl get pods'
+alias kgns='kubectl get namespaces'
+alias kgall='kubectl get ingress,service,deployment,pod,statefulset'
+# switch between cluster
+alias kuc='kubectl config use-context'
+# set a namespace on the current context to avoid using --namespace all the time
+alias kns='kubectl config set-context "$(kubectl config current-context)" --namespace'
+alias kgc='kubectl config get-contexts'
+alias kex='kubectl exec -it'
+# watch all pod ont he cluster
+alias kwatch='kubectl get pods -w --all-namespaces'
+
 
 # ls
 alias l='ls -a'
@@ -55,6 +74,7 @@ alias tapp='touch app.js'
 # yarn
 alias y='yarn '
 alias ya='yarn add '
+alias yd='yarn dev '
 alias yi='yarn install '
 alias ys='yarn start '
 alias yt='yarn test'
@@ -72,8 +92,6 @@ alias ssd="node '/Users/joan/Code/snc/ssd' " # srcDir destDir watch=(true/false)
 alias ytb='npx pipcorn '                     # show youtube url --ex : ytb 'url'
 
 alias dev='docker-compose up -d && npm run dev ' # dev session
-alias m='cd /Users/joan/Code/Mapi && docker-compose up -d && npm run dev ' # launch mapi
-alias d='cd /Users/joan/Code/Datree && npm run dev'
 
 export ANDROID_HOME=/Users/joan/Library/Android/sdk/
 export ANDROID_SDK_ROOT=/Users/joan/Library/Android/sdk/
