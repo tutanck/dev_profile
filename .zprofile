@@ -23,7 +23,7 @@ alias gck='git checkout'
 alias gpl='git pull '
 alias gpop='git stash pop'
 alias gps='git push '
-alias gpn='git push --no-verify' 
+alias gpn='git push --no-verify'
 alias grh='git reset --hard '
 alias gst='git branch && git status '
 alias gsta='git stash '
@@ -32,7 +32,7 @@ alias gplog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold
 alias gx='gitx --all'
 
 # kubernetes
- alias k=kubectl
+alias k=kubectl
 alias kg='kubectl get'
 alias kgp='kubectl get pods'
 alias kgns='kubectl get namespaces'
@@ -46,7 +46,6 @@ alias kex='kubectl exec -it'
 # watch all pod ont he cluster
 alias kwatch='kubectl get pods -w --all-namespaces'
 
-
 # ls
 alias l='ls -a'
 alias ll='ls -al'
@@ -58,9 +57,11 @@ alias mongod='mongod --dbpath=/Users/joan/data/db'
 alias n='node '
 alias nd='npm run dev '
 alias ni='npm install '
+alias nil='npm install --legacy-peer-deps '
 alias nr='npm run $1'
 alias ns='npm start '
 alias nt='npm run test '
+alias nl='npm run lint '
 
 # touch
 alias tdk='touch Dockerfile'
@@ -80,10 +81,10 @@ alias ys='yarn start '
 alias yt='yarn test'
 
 # npx (npm pkg)
-alias cra='npx create-react-app '   # create react app
-alias hps='heroku ps -a '           # heroku remaining dynos
-alias kp='npx kill-port '           # kp 'port' --ex : kp 3000
-alias md='npx readme-md-generator ' # generate new readme
+alias cra='npx create-react-app '      # create react app
+alias hps='heroku ps -a '              # heroku remaining dynos
+alias kp='npx kill-port '              # kp 'port' --ex : kp 3000
+alias md='npx readme-md-generator '    # generate new readme
 alias ng='npx ngrok -g && ngrok http ' # ng 'port' --ex : ng 3000
 
 # utils
@@ -110,3 +111,5 @@ export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
 
 # mongo
 export PATH="$PATH:/usr/local/opt/mongodb-community@4.4/bin"
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
